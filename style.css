@@ -745,7 +745,7 @@ p {
 }
 
 .footer .logo-img {
-    height: 35px;
+    height: 65px;
     width: auto;
     filter: brightness(0) invert(1);
     transition: all 0.3s ease;
