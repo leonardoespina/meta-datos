@@ -148,6 +148,16 @@ p {
     background-clip: text;
 }
 
+.logo-img {
+    height: 40px;
+    width: auto;
+    transition: all 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -734,6 +744,18 @@ p {
     background-clip: text;
 }
 
+.footer .logo-img {
+    height: 35px;
+    width: auto;
+    filter: brightness(0) invert(1);
+    transition: all 0.3s ease;
+}
+
+.footer .logo-img:hover {
+    transform: scale(1.05);
+    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
 .footer-bottom {
     border-top: 1px solid var(--neutral-700);
     padding-top: 2rem;
@@ -1026,7 +1048,7 @@ p {
     .contact-form {
         padding: 1.5rem;
     }
-}
+
     .form-group {
         margin-bottom: 1.25rem;
     }
@@ -1065,6 +1087,11 @@ p {
         height: 60px;
         font-size: 1.5rem;
     }
+
+    .footer .logo-img {
+        height: 30px;
+    }
+}
 
 /* Smooth scrolling */
 html {
